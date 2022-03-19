@@ -1,8 +1,6 @@
 nav{
-  overflow:hidden;
+  overflow: hidden;
   background-color: black;
-  font-family: Arial;
-  margin: 0 auto;
 }
 
 nav a{
