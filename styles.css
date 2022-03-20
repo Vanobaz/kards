@@ -26,9 +26,28 @@ header{
 }
 
 main{
+  margin: 64px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding: 16px 32px 32px 32px;
+  background-color: #ffffff;
 }
 
 body{
-  margin: 0 1.5em;
+  padding: 0 30px;
+  line-height: 26px;
+  font-family: "Arial", sans-serif;
+  background: url("img/mainbg.png") no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+footer{
+  margin: 64px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #3b3b3b;
+}
+.section{
+
 }
