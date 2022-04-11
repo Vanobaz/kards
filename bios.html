@@ -40,12 +40,12 @@
         <li>ширину шины видеопамяти (Bus Width)</li>
         <li>частоты графического ядра (GPU Clock) и видеопамяти (Memory Clock)</li>
       </ul>
-      <img src="img/proshivka_bios_videokarti1.png">
+      <div class="pic"><img src="img/proshivka_bios_videokarti1.png"></div>
       <p>Сделайте резервную копию текущей версии BIOS. В дальнейшем ее можно будет использовать для возврата видеокарты в прежнее состояние, если процесс перепрошивки закончится неудачно. Нажимаем лкм по указанной иконке, в меню нажимаем на "Save to file". Лучше сохранить с запоминающимся названием, пример - <i>oldbios.rom</i>.</p>
-      <img src="img/proshivka_bios_videokarti2.png">
+      <div class="pic"><img src="img/proshivka_bios_videokarti2.png"></div>
       <p>Теперь устанавливаем новую версию BIOS. Подбираем биос согласно характеристикам имеющейся видеокарты.</p>
       <p id="library">Полная библиотека BIOS доступна <b><a href="https://www.techpowerup.com/vgabios/">здесь</a></b></p>
-      <img src="img/proshivka_bios_videokarti31.png">
+      <div class="pic"><img src="img/proshivka_bios_videokarti31.png"></div>
       <p>В результате загрузки Вы должны получить файл прошивки с расширением .rom.</p>
       <p>Далее скачиваем утилиту для перепрошивки.</p>
       <p>Для видеокарт NVidia (Geforce) нужна утилита NVFlash. Состоит она из двух файлов: NVFLASH.exe и CWSDPMI.EXE. Чтобы скачать архив с указанными файлами нажмите <a href="files/nvflash.zip" download>сюда</a>.</p>
@@ -59,15 +59,15 @@
       </ul>
       <h3>Перепрошивка</h3>
       <p>Сперва запускаем компьютер через флешку с утилитой. Для этого во время запуска компьютера включаем Boot menu, во время запуска будет показана кнопка отвечающая за это. Выбираем флешку. На экране должно появиться несколько строк как показано ниже.</p>
-      <img src="img/proshivka_bios_videokarti4.png">
+      <div class="pic"><img src="img/proshivka_bios_videokarti4.png"></div>
       <p>Во многих случаях для видеокарт GeForce требуется отключить защиту от изменения BIOS. С этой целью после приглашения "С:\>" необходимо ввести команду nvflash -protectoff , нажать клавишу Enter и дождаться появления приглашение "С:\>". Для видеокарт Radeon отключать защиту обычно не требуется и этот этап можно пропустить.</p>
-      <img src="img/proshivka_bios_videokarti6.png">
+      <div class="pic"><img src="img/proshivka_bios_videokarti6.png"></div>
       <p>Для перепрошивки старого BIOS, после приглашения "С:\>" необходимо ввести одну из следующих команд</p>
       <ul>
         <li>для видеокарт GeForce: <span>nvflash -4 -5 -6 newbios.rom</span></li>
         <li>для видеокарт Radeon: <span>atiflash –p –f 0 newbios.rom</span></li>
       </ul>
-      <img src="img/proshivka_bios_videokarti7.png">
+      <div class="pic"><img src="img/proshivka_bios_videokarti7.png"></div>
       <p>После ввода команды нужно нажать клавишу Enter и немного подождать, пока опять не появится приглашение "С:\>". Его появление свидетельствует о завершении процесса перепрошивки.</p>
       <p>После перепрошивки перезагрузить компьютер в обычном режиме. Обычно после перепрошивки требуется переустановить драйвер видеокарты. Драйвера можно найти на оффициальных сайтах <a href="https://www.nvidia.ru/Download/index.aspx?lang=ru">NVidia</a> и <a href="https://www.amd.com/ru/support">AMD</a>.</p>
     </main>
