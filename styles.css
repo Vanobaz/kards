@@ -36,7 +36,7 @@ main{
 body{
   padding: 0 30px;
   line-height: 26px;
-  font-family: "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   background: url("img/mainbg.png") no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
