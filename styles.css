@@ -80,3 +80,8 @@ p{
 .line{
   border-top: 1px solid #efefef;
 }
+
+.danger{
+  border: 2px solid red;
+  padding: 5px;
+}
