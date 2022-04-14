@@ -60,3 +60,7 @@ h2{
 .logo{
   float: right;
 }
+
+.page_header{
+  border-bottom: 1px solid #efefef;
+}
